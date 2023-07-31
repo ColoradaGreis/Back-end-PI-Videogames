@@ -1,6 +1,6 @@
 const { Router } = require('express');
-const axios = require('axios');
-const {Videogame, Genre} = require("../db")
+// const axios = require('axios');
+// const {Videogame, Genre} = require("../db")
 // Importar todos los routers;
 // Ejemplo: const authRouter = require('./auth.js');
 const videogamesRoute = require("./videogames.js");

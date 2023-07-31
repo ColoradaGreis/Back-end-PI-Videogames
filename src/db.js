@@ -11,7 +11,7 @@ const sequelize = new Sequelize(DB_DEPLOY, {
   native: false, // lets Sequelize know we can use pg-native for ~30% more speed
   dialectOptions: {
     ssl:{
-      require: true
+      require: false
     }
   }
 });
