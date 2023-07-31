@@ -25,7 +25,7 @@ const getApiInfo= async ()=>  {
         }
         return videogames 
     } catch (error) {
-        console.log(error, "this is an error catched")
+        console.log(error)
     }
 
 }
