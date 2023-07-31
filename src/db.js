@@ -2,9 +2,10 @@ require('dotenv').config();
 const { Sequelize } = require('sequelize');
 const fs = require('fs');
 const path = require('path');
-const {
-  DB_USER, DB_PASSWORD, DB_HOST, DB_DEPLOY
-} = process.env;
+const DB_DEPLOY = "postgres://videogames_db_mlc3_user:az7gW6U9daMjezBksvZYta0FGpIWpv9h@dpg-ci543vp5rnum9ib91c9g-a/videogames_db_mlc3"
+// const {
+//   DB_USER, DB_PASSWORD, DB_HOST, DB_DEPLOY
+// } = process.env;
 
 const sequelize = new Sequelize(DB_DEPLOY, {
   logging: false, // set to console.log to see the raw SQL queries
